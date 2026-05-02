@@ -31,7 +31,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/salon-suite-pro">
           <ScrollToTop />
           <Routes>
             <Route element={<PublicLayout />}>
